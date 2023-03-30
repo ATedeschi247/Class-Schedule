@@ -1,0 +1,44 @@
+[
+    {
+        "className": "AP Calculus BC",
+        "teacherName": "Mr. Drummond",
+        "roomNumber": "D219",
+        "days": ["A", "B", "C", "E", "F"]
+    },
+    {
+        "className": "Phys Ed",
+        "teacherName": "Mr. Withstandley",
+        "roomNumber": "Gym",
+        "days": ["A", "B", "D", "E", "F"]
+    },
+    {
+        "className": "Web Design",
+        "teacherName": "Ms. Bott",
+        "roomNumber": "B114",
+        "days": ["A", "C", "D", "E", "G"]
+    },
+    {
+        "className": "BCC English",
+        "teacherName": "Mrs. Lomovsky",
+        "roomNumber": "E107",
+        "days": ["B", "C", "D", "F", "G"]
+    },
+    {
+        "className": "AP Spanish",
+        "teacherName": "Sra. Jimenez",
+        "roomNumber": "E201",
+        "days": ["A", "B", "C", "E", "G"]
+    },
+    {
+        "className": "Chorus",
+        "teacherName": "Mrs. Conners",
+        "roomNumber": "A104",
+        "days": ["A", "C", "D", "F", "G"]
+    },
+    {
+        "className": "Creative Foods",
+        "teacherName": "Mrs. Arnold",
+        "roomNumber": "B103",
+        "days": ["B", "C", "E", "F", "G"]
+    }
+]
