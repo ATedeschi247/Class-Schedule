@@ -33,19 +33,31 @@
     </head>
     <body>
         <div id="main" class="container">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Class Name</th>
-                        <th>Teacher Name</th>
-                        <th>Room Number</th>
-                        <th>Days</th>
-                    </tr>
-                </thead>
-                <tbody>
+          <div class="page-header text-center">
+            <h1>School Block Schedule</h1>
+          </div>
+          <div class="buttons">
+            <button @click="filterDay(this.innerText)">A</button>
+            <button @click="">B</button>
+            <button @click="">C</button>
+            <button @click="">D</button>
+            <button @click="">E</button>
+            <button @click="">F</button>
+            <button @click="">G</button>
+          </div>
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th>Class Name</th>
+                      <th>Teacher Name</th>
+                      <th>Room Number</th>
+                      <th>Days</th>
+                  </tr>
+              </thead>
+              <tbody>
 
-                </tbody>
-            </table>
+              </tbody>
+          </table>
         </div>
     </body>
     <script src="script.js"></script>

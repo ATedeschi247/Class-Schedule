@@ -1,0 +1,8 @@
+div.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+div.buttons > button {
+    padding: 10px 37px;
+}
