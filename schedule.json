@@ -13,7 +13,7 @@
     },
     {
         "className": "Web Design",
-        "teacherName": "Ms. Bott",
+        "teacherName": "Mrs. Herbert",
         "roomNumber": "B114",
         "days": ["A", "C", "D", "E", "G"]
     },
@@ -27,7 +27,7 @@
         "className": "AP Spanish",
         "teacherName": "Sra. Jimenez",
         "roomNumber": "E201",
-        "days": ["A", "B", "C", "E", "G"]
+        "days": ["A", "B", "D", "E", "G"]
     },
     {
         "className": "Chorus",

@@ -5,7 +5,23 @@ const app = Vue.createApp({
     },
     methods: {
         filterDay(day) {
-            
+            var shown = [];
+            schedule.forEach(function(Class) {
+                if(Class.days.includes(day)) {
+                    shown.push(Class);
+                }
+            });
+            while(document.querySelector('tbody').hasChildNodes()) {
+                document.querySelector('tbody').removeChild(document.querySelector('tbody').firstChild);
+            }
+            $(shown).each(function(index, element) {
+                let row = document.createElement("tr");
+                row.innerHTML += '<td>' + element.className + '</td>'
+                row.innerHTML += '<td>' + element.teacherName + '</td>'
+                row.innerHTML += '<td>' + element.roomNumber + '</td>'
+                row.innerHTML += '<td>' + element.days + '</td>'
+                document.querySelector('tbody').appendChild(row);
+            })
         }
     }
 });
